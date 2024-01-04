@@ -36,6 +36,12 @@ const addNote = (text = "") => {
             saveNotes();
         }
     )
+    note.querySelector(".box").addEventListener(
+        "focusout",
+        function () {
+            saveNotes();
+        }
+    )
     main.appendChild(note);
 }
 
