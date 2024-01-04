@@ -1,0 +1,56 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.noteDiv {
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.tool {
+    width: 100%;
+    height: 30px;
+    background-color: #000;
+}
+
+.tool i {
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.box {
+    width: 100%;
+    height: 370px;
+    background-color: #fff;
+}
+
+.box textarea {
+    width: 99%;
+    height: 99%;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+#addBtn {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    right: 10px;
+    position: fixed;
+    /* margin-top: -45px; */
+    cursor: pointer;
+
+}
